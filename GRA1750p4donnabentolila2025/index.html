@@ -27,6 +27,15 @@
       border: 3px solid #212226;
       box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
+/* Fade-in animation for the invitation box */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.wrapper {
+  animation: fadeIn 1.2s ease-out forwards;
+}
 
     h1 {
       font-size: 20px;
